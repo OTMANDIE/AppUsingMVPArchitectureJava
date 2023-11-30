@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ActivityUsingMVP</string>
+    <string name="buttonText">Afficher le cours suivant</string>
+    <string name="heading">MVP architecture Pattern</string>
+    <string name="subHeading">Cours en ligne d\'informatique</string>
+    <string name="description">Description du cours</string>
+</resources>
