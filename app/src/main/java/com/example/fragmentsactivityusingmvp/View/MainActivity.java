@@ -1,5 +1,7 @@
 package com.example.fragmentsactivityusingmvp.View;
 
+import static android.view.View.GONE;
+
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
@@ -60,8 +62,8 @@ public class MainActivity extends AppCompatActivity implements Contract.View {
 
     @Override
     public void hideProgress() {
-        progressBar.setVisibility(View.GONE);
-        textView.setVisibility(View.GONE);
+        progressBar.setVisibility(GONE);
+        textView.setVisibility(View.VISIBLE);
     }
 
     @Override
